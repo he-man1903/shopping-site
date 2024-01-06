@@ -1,0 +1,108 @@
+.profile{
+ margin-top: 5%;
+ margin-left: 2%;
+
+  
+}
+.profileContent{
+ 
+  margin-top: 10%;
+}
+
+input, label {
+  margin: 5px 5px;
+}
+
+.form-group {
+  display: block;
+  width: 450px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.form-group button{
+  display: block;
+  margin: auto;
+}
+
+.form-control {
+  float: left;
+}
+
+#inputStreet {
+  width: 100%;
+}
+
+#inputCity {
+  width: 50%;
+}
+
+#inputState {
+  width: 50%;
+}
+
+#inputZip {
+  width: 50%;
+}
+
+#inputCounty {
+  width: 50%;
+}
+
+#inputCountry {
+  width: 50%;
+}
+
+.button-profile {
+  margin: 0.5rem;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-profile:hover,
+.button-profile:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-profile:active {
+  opacity: .5;
+}
+
+.but-profile{
+  display: flex;
+  flex-direction: column;
+}
+.addbox{
+  background-color: #FF4742;
+  border:  solid black;
+  border-radius: 5px;
+  text-align: center;
+  
+  margin:20px 20px 20px 200px
+}
+.noOrder{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 3000;
+  margin: 100% -100% 80% 92%;
+}

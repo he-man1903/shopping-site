@@ -1,0 +1,39 @@
+/* #address{
+    margin: 5%;
+    margin-left: 20%;
+    text-align: center;
+} */
+.con{
+    padding-top: 7%;
+}
+/* Card */
+.card {
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    margin: 1rem;
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  .card-body > * {
+    margin-bottom: 0.5rem;
+  }
+
+
+
+.orderSummaryList {  
+    display: flex;
+    flex-direction: row;
+}
+.ListName{
+    width: 70%;
+}
+.ListPrice{
+    width: 30%;
+}
+
+
+.bot{
+    display: flex;
+}

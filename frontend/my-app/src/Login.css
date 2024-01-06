@@ -1,0 +1,41 @@
+.main {
+    background-color: rgb(255, 255, 255) ;
+}
+.customer,.storeOwner{
+    text-align: center;
+    border: black solid 0.25px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+
+.main input{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+}
+.p{
+    display:flex;
+    width: fit-content;
+    margin:auto;
+    padding-top: 4.6rem;
+}
+
+#s{
+    display:none;
+}
+
+.b{
+    margin: 1rem;
+}
+#sr,#cr{
+    display: none;
+}
+#asb,#acb,#cust{
+    background-color: rgb(255, 255, 255);
+    color:#FF4742;
+}
+#fu{
+    display: none;
+}

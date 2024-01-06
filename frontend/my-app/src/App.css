@@ -1,0 +1,81 @@
+
+.App {
+  text-align: center;
+  height: 50px;
+  padding-top: 6%;
+}
+.butt .cart{
+  float:left
+}
+.mainProfile{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5rem;
+}
+
+.profile{
+  display: block;
+  background-color: rgb(33 37 41);
+  padding:10px;
+  align-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.profile img{
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+/* .profile button{
+  display: block;
+  margin:10px;
+  background-color: rgb(24, 129, 129);
+  color:white;
+  padding: 10px;
+  width:230px;
+  text-align: center;
+} */
+.profile div{
+  color: white;
+  margin-bottom: 5px;
+}
+
+.button-app {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 20px 40px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin: 1rem;
+}
+
+.button-app:hover,
+.button-app:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-app:active {
+  opacity: .5;
+}

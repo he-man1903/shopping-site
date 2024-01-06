@@ -1,0 +1,31 @@
+.margint{
+  margin-top: 0.7rem;
+}
+.nav1{
+  background-color: #212529;
+  display: flex;
+}
+.paddingt{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.ow{
+  color:white;
+}
+.bb{
+  margin:1rem;
+}
+.bb1{
+  margin: 1rem;
+  float: right;
+  margin-left: auto;
+}
+.nav2{
+  display: none;
+}
+#succ{
+  display: none;
+}
+.nav4{
+  display: none;
+}
